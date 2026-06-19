@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="Author" content="Shivansh Shukla">
+        <meta name="Description" content="I'm building my portfolio webpage">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Portfolio Webpage</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="portfolio-icon.png">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    </head>
+    <body>
+        <header>
+            <nav aria-label="primary-navigation">
+                <ul>
+                    <li><a href="#intro-section">Home</a></li>
+                    <li><a href="#about-me">About Me</a></li>
+                    <li><a href="#Skills">Skills</a></li>
+                    <li><a href="#projects">My Projects</a></li>
+                    <li><a href="#Contact">Let's Talk</a></li>
+                </ul>
+            </nav>
+            
+            <section id="intro-section">
+                <div>
+                    <h1>Hi, I'm Shivansh Shukla</h1>
+                    <h3>A Bit About Me</h3>
+                    <p>I'm a First Year <abbr title="Bachelor of Technology">B.Tech </abbr>Computer Science Student. <br> Learning and exploring various things.</p>
+                </div>
+                <img src="me-avatar.jpeg" alt="An Avatar reflecting me" 
+                    width="500px" height="500px">
+            </section>
+        </header>
+        <main>
+            <section id="about-me">
+                <h2>About Me</h2>
+                <p>I'm a First Year B.Tech CS Student studying in <abbr title="Malwa Institute of Technology">MIT</abbr> Indore.<br> Currently focusing on web development - learning HTML, CSS and JavaScript and building small projects from scratch.</p>
+                <h3>In my free time I enjoy- </h3>
+                <ul>
+                    <li>Reading Manga and light novels</li>
+                    <li>Playing badminton and chess</li>
+                    <li>Occasionally creating short-form content on youtube & Instagram where I document my learning journey</li>
+                    <li>I also do a bit of video editing.</li>
+                </ul>
+            </section>
+            <section id="Skills">
+                <h2>Skills</h2>
+                <h3>Currently Building With</h3>
+                <ul>
+                    <li><strong>HTML5</strong>- Semantic markup, multi-page projects, forms</li>
+                    <li><strong>CSS3</strong>- Box model, Flexbox, Grid, Layouts, Responsive design, animations</li>
+                    <li><strong>Git & Github</strong>- Version controlling everything I build, branching, pushing to remote repositories</li>
+                </ul>
+                <h3>Currently Learning</h3>
+                <ul>
+                    <li><strong>JavaScript</strong>- Fundamentals, DOM Manipulation, events</li>
+                    <li><strong>Responsive Design</strong>- Mobile-First approach</li>
+                </ul>
+            </section>
+            <section id="projects">
+                <div>
+                    <h2>Projects</h2>
+                    <h3>My Pani Puri Shop</h3>
+                    <ul>
+                        <li>A multi-page website for a fictional food shop built with pure HTML5.</li>
+                        <li>Features semantic markup, responsive images, forms, tables, and multi-page navigation</li>
+                    </ul>
+                    <a href="https://6a1596c34cab0a500d72874b--bright-fox-d270c5.netlify.app/" target="_blank"><strong>[Live Demo]</strong></a>
+                    <a href="https://github.com/Shivanshshukla-git/HTML" target="_blank"><strong>[Source Code]</strong></a>
+                </div>
+                <img src="pani-puri-webpage.png" alt="A pic of my working Pani Puri Webpage"
+                    width="800px" height="500px">    
+            </section>
+            <section id="Contact">
+                <h2>Let's Talk</h2>
+                <p>Have a Question or want to connect? Fill out the form or reach me on Linkedin.</p>
+                <form action="https://httpbin.org/get" method="get">
+                    <fieldset>
+                        <legend>Have a Question?</legend>
+                        <p>
+                            <label for="firstName">Name:</label>
+                            <input type="text" name="firstName" id="firstName" placeholder="Your Name" autocomplete="on" required autofocus>
+                        </p>
+                        <p>
+                            <label for="email">Email:</label>
+                            <input type="email" name="email" id="email" placeholder="xyz@gmail.com" required autocomplete="on">
+                        </p>
+                        <p>
+                            <label for="note">Your Message:</label>
+                            <textarea name="note" id="note" cols="30" rows="10" placeholder="Type Your Message here"></textarea>
+                        </p>
+                        <button type="submit">Submit</button>
+                        <button type="reset">Reset</button>
+                    </fieldset>
+                </form>
+                <p>I'm open to connecting with fellow developers and students. <br>
+                Contact with me on <a href="https://www.linkedin.com/in/shivansh-shukla-4ab238383">Linkedin</a>
+                </p>
+            </section>
+        </main>
+        <footer>
+            <p>Follow me on -</p>
+            <div>
+                👉 <a href="https://github.com/Shivanshshukla-git" target="_blank">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://www.youtube.com/@Tier3Build" target="_blank">
+                    <i class="fab fa-youtube"></i>
+                </a>
+                <a href="https://www.instagram.com/tier3build?igsh=a3huZGk4am91bWo2" target="_blank">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </div>
+            <p>
+                &copy; 2026 Shivansh Shukla. All Rights Reserved.
+            </p>        
+        </footer>
+    </body>
+</html>
