@@ -1,12 +1,27 @@
 .styling-nav ul{
-    background-color: rgb(163, 228, 228);
+    background-color: rgba(201, 219, 181, 0.404);
     display: flex;
-    justify-content: space-evenly;
+    justify-content:center;
+    gap: 4rem;
     list-style: none;
     padding: 1.1rem;
 }
+.square{
+    background-color: rgba(27, 196, 202, 0.836);
+    padding: 8px;
+    position: absolute;
+    top: 28%;
+    right: 10%;
+    border-radius: 5px;
+}
 .styling-nav a{
     text-decoration: none;
+    color: #000;
+    font-size: 1.2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.styling-nav a:hover, a:focus-visible{
+    color: rgb(56, 143, 114);
 }
 .styling-nav{
     position: fixed;
@@ -16,27 +31,64 @@
     z-index: 100;
 }
 main{
-    padding-top: 70px;
+    padding-top: 100px;
     max-inline-size: 1000px;
     margin: auto;
+}
+.wrapper{
+    background-color: #ebdcdc3a;
+    border: 1px solid #e6dddd4b;
+    padding-block-start: 100px;
+    padding-inline: 60px;
+    border-radius: 25px;
+}
+.wrapper>h1{
+    position: absolute;
+    top: 11%;
+    left: 43%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 3rem;
+    color: #000;
 }
 .two-column-layout{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    background-color: rgba(202, 243, 243, 0.418);
+    border-radius: 10px;;
 }
 .pic-edit{
-    border-radius: 48%;
+    border-radius: 50%;
+    display: block;
 }
-.two-column-layout{
-    background-color: rgb(202, 243, 243);
-}
+
 .intro-div>h1{
     position: absolute;
-    top: 30%;
-    left: 24%;
+    top: 43%;
+    left: 22%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2.1rem;
+
+}
+.intro-div>h3{
+     position: absolute;
+    top: 52%;
+    left: 23%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.2rem;
 }
 .intro-div>p{
     position: absolute;
-    top: 38%;
-    left: 24%;
+    top: 55%;
+    left: 23%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.2rem;
+}
+.intro-div>p>abbr{
+    text-decoration: none;
+}
+.about-me{
+    background-color: rgba(194, 120, 120, 0.589);
+    padding: 1.6rem 1rem;
+    margin-block: 0.5rem;
+    border-radius: 25px;
 }
