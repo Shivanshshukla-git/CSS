@@ -41,6 +41,7 @@ main{
     padding-block-start: 100px;
     padding-inline: 60px;
     border-radius: 25px;
+    margin-block-end: 0.5rem;
 }
 .wrapper>h1{
     position: absolute;
@@ -54,13 +55,13 @@ main{
     display: grid;
     grid-template-columns: 1fr 1fr;
     background-color: rgba(202, 243, 243, 0.418);
-    border-radius: 10px;;
+    border-radius: 10px;
 }
 .pic-edit{
     border-radius: 50%;
     display: block;
+    max-inline-size: 100%;
 }
-
 .intro-div>h1{
     position: absolute;
     top: 43%;
@@ -87,8 +88,68 @@ main{
     text-decoration: none;
 }
 .about-me{
-    background-color: rgba(194, 120, 120, 0.589);
+    background-color: rgba(214, 152, 152, 0.466);
     padding: 1.6rem 1rem;
-    margin-block: 0.5rem;
+    margin-block: 2rem;
     border-radius: 25px;
+}
+.about-me ul{
+    list-style:disc;
+    list-style-position: outside;
+}
+.about-me ul li::marker, .skill-section ul li::marker{
+    color: rgba(26, 31, 20, 0.753);
+}
+.about-me h2{
+    font-size: 2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-inline-start: 1.5rem;
+    color:rgba(33, 46, 70, 0.897) ;
+}
+.about-me p, .about-me li{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.2rem;
+}
+.about-me p{
+    padding-inline-start: 1.5rem;
+}
+.about-me>p>abbr{
+    text-decoration: none;
+}
+.about-me h3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.3rem;
+    padding-inline-start: 1.4rem ;
+}
+.skill-section{
+    background-color:rgba(221, 218, 168, 0.726) ;
+    border-radius: 25px;
+    padding: 1.7rem ;
+    margin-block: 2rem ;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.skill-section h2{
+    font-size: 2rem;
+    color: rgba(39, 18, 18, 0.836);
+    padding-inline-start: 1.5rem;
+}
+.skill-section h3{
+    font-size: 1.3rem;
+    padding-inline-start: 1.5rem;
+}
+.skill-section li{
+    font-size: 1.1rem;
+    list-style:square;
+}
+.two-classes{
+    background-color: rgba(136, 204, 136, 0.664);
+    border-radius: 25px;
+    border: 1px hidden rgba(38, 51, 38, 0.856);
+    padding-inline: 0.2rem;
+    margin-block: 2rem;
+}
+.two-column-layout img{
+    max-inline-size: 100%;
+    display: block;
+    margin: 0;
 }
