@@ -1,0 +1,42 @@
+.styling-nav ul{
+    background-color: rgb(163, 228, 228);
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    padding: 1.1rem;
+}
+.styling-nav a{
+    text-decoration: none;
+}
+.styling-nav{
+    position: fixed;
+    top: 0;
+    left:0;
+    width: 100%;
+    z-index: 100;
+}
+main{
+    padding-top: 70px;
+    max-inline-size: 1000px;
+    margin: auto;
+}
+.two-column-layout{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.pic-edit{
+    border-radius: 48%;
+}
+.two-column-layout{
+    background-color: rgb(202, 243, 243);
+}
+.intro-div>h1{
+    position: absolute;
+    top: 30%;
+    left: 24%;
+}
+.intro-div>p{
+    position: absolute;
+    top: 38%;
+    left: 24%;
+}
