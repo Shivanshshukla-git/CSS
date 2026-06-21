@@ -59,28 +59,31 @@ main{
 }
 .pic-edit{
     border-radius: 50%;
+}
+img{
     display: block;
     max-inline-size: 100%;
+    object-fit: cover;
 }
 .intro-div>h1{
     position: absolute;
     top: 43%;
-    left: 22%;
+    left: 24%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 2.1rem;
+    font-size: 2.2rem;
 
 }
 .intro-div>h3{
      position: absolute;
     top: 52%;
-    left: 23%;
+    left: 24%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 1.2rem;
 }
 .intro-div>p{
     position: absolute;
     top: 55%;
-    left: 23%;
+    left: 24%;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 1.2rem;
 }
@@ -97,7 +100,7 @@ main{
     list-style:disc;
     list-style-position: outside;
 }
-.about-me ul li::marker, .skill-section ul li::marker{
+.about-me ul li::marker, .skill-section ul li::marker, .two-classes ul li::marker{
     color: rgba(26, 31, 20, 0.753);
 }
 .about-me h2{
@@ -113,13 +116,13 @@ main{
 .about-me p{
     padding-inline-start: 1.5rem;
 }
-.about-me>p>abbr{
+.about-me>p>abbr, .two-classes a{
     text-decoration: none;
 }
 .about-me h3{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 1.3rem;
-    padding-inline-start: 1.4rem ;
+    padding-inline-start: 1.2rem ;
 }
 .skill-section{
     background-color:rgba(221, 218, 168, 0.726) ;
@@ -134,11 +137,15 @@ main{
     padding-inline-start: 1.5rem;
 }
 .skill-section h3{
-    font-size: 1.3rem;
-    padding-inline-start: 1.5rem;
+    font-size: 1.4rem;
+    padding-inline-start: 1.1rem;
+}
+.skill-section h3::before, .about-me h3::before, .two-classes h3::before{
+    content: '–';
+    margin-inline-end:0.5rem;
 }
 .skill-section li{
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     list-style:square;
 }
 .two-classes{
@@ -147,9 +154,32 @@ main{
     border: 1px hidden rgba(38, 51, 38, 0.856);
     padding-inline: 0.2rem;
     margin-block: 2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-.two-column-layout img{
-    max-inline-size: 100%;
-    display: block;
-    margin: 0;
+.two-classes h2{
+    font-size: 2rem;
+    color: rgb(45, 27, 53);
+    padding-inline-start: 2.6rem;
+}
+.two-classes h3{
+    font-size: 1.3rem;
+    padding-inline-start: 2rem;
+}
+.two-classes ul li::marker{
+    list-style:circle;
+}
+.two-classes ul{
+    font-size: 1.2rem;
+    padding-inline-start: 3.4rem;
+    line-height: 2rem;
+}
+.two-classes a{
+    padding-inline-start: 3rem;
+    color: rgb(206, 75, 86);
+}
+.two-classes a:hover, .two-classes a:focus-visible{
+    color: rgb(168, 10, 10);
+}
+.two-classes a:active{
+    color: #000;
 }
