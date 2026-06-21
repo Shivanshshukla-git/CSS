@@ -2,8 +2,8 @@
 My personal portfolio website built with pure HTML5 and CSS3.
 
 ##About
-I'ma First-year B.Tech Computer Science student.
-This is my First major project where I applied everything I learned about HTML and CSS until now.
+- I'm a First-year B.Tech Computer Science student.
+- This is my First major project where I applied everything I learned about HTML and CSS until now.
 
 ##Features
 - Fully responsive design (mobile-friendly)
