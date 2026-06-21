@@ -18,6 +18,7 @@
                     <li><a href="#about-me">About Me</a></li>
                     <li><a href="#skills">Skills</a></li>
                     <li><a href="#projects">My Projects</a></li>
+                    <li><a href="#follow-me">Follow me</a></li>
                     <li class="square"><a href="#contact">Let's Talk</a></li>
                 </ul>
             </nav>
@@ -78,19 +79,30 @@
             </div>    
             <section id="contact" class="talk">
                 <h2>Let's Talk</h2>
-                <p>Have a Question or want to connect? Fill out the form or reach me on Linkedin.</p>
+                <p>Have a Question or want to connect? Fill out the form or Reach me on Linkedin.</p>
                 <form action="https://httpbin.org/get" method="get">
                     <fieldset>
-                        <legend>Have a Question?</legend>
-                        <p>
-                            <label for="firstName">Name:</label>
-                            <input type="text" name="firstName" id="firstName" placeholder="Your Name" autocomplete="on" required autofocus>
-                        </p>
-                        <p>
-                            <label for="email">Email:</label>
-                            <input type="email" name="email" id="email" placeholder="xyz@gmail.com" required autocomplete="on">
-                        </p>
-                        <p>
+                        <div class="form-div">
+                            <p>
+                                <label for="firstName">Name:</label>
+                                <input type="text" name="firstName" id="firstName" placeholder="Your Name" autocomplete="on" required autofocus>
+                            </p>
+                            <p>
+                                <label for="email">Email:</label>
+                                <input type="email" name="email" id="email" placeholder="xyz@gmail.com" required autocomplete="on">
+                            </p>
+                            <p>
+                                <label for="subject">Subject:</label>
+                                <select name="subject" id="select">
+                                    <option value="">Select Subject</option>
+                                    <option value="internship">Internship</option>
+                                    <option value="opportunity">Opportunity</option>
+                                    <option value="feedback">Feedback</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </p>
+                        </div>    
+                        <p class="your-msg">
                             <label for="note">Your Message:</label>
                             <textarea name="note" id="note" cols="30" rows="10" placeholder="Type Your Message here"></textarea>
                         </p>
@@ -98,28 +110,29 @@
                         <button type="reset">Reset</button>
                     </fieldset>
                 </form>
-                <p>I'm open to connecting with fellow developers and students. <br>
+                <p class="linkedin-link social-links">I'm open to connecting with fellow developers and students. <br>
                 Contact with me on Linkedin 👉<a href="https://www.linkedin.com/in/shivansh-shukla-4ab238383" target="_blank">
                     <i class="fab fa-linkedin"></i>
                 </a>
                 </p>
-                <a href="#">Back to Top</a>
             </section>
+             <a href="#">Back to Top</a>
         </main>
-        <footer>
-            <p>Follow me on -</p>
-            <div>
-                👉 <a href="https://github.com/Shivanshshukla-git" target="_blank">
-                    <i class="fab fa-github"></i>
-                </a>
-                <a href="https://www.youtube.com/@Tier3Build" target="_blank">
-                    <i class="fab fa-youtube"></i>
-                </a>
-                <a href="https://www.instagram.com/tier3build?igsh=a3huZGk4am91bWo2" target="_blank">
-                    <i class="fab fa-instagram"></i>
-                </a>
+        <footer id="follow-me" class="foot">
+            <div class="social-links">
+                <p class="follow-para">Follow me on 👉 
+                    <a href="https://github.com/Shivanshshukla-git" target="_blank" class="git-style">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.youtube.com/@Tier3Build" target="_blank" class="yt-style">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                    <a href="https://www.instagram.com/tier3build?igsh=a3huZGk4am91bWo2" target="_blank" class="insta-style">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </p>
             </div>
-            <p>
+            <p class="copyright">
                 &copy; 2026 Shivansh Shukla. All Rights Reserved.
             </p>        
         </footer>
