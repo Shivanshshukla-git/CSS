@@ -17,7 +17,7 @@
 .styling-nav a{
     text-decoration: none;
     color: #000;
-    font-size: 1.4rem;
+    font-size: 1.5rem;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .styling-nav a:hover, .styling-nav a:focus-visible{
@@ -92,7 +92,7 @@ img{
 .intro-div>h1{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 2.2rem;
-    padding-inline: 1.6rem;
+    padding-inline: 1.4rem;
 }
 .bit-para{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
