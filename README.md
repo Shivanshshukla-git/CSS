@@ -27,8 +27,10 @@ My personal portfolio website built with pure HTML5 and CSS3.
 - Organizing code and deploying a website
 - Writing clean code
 
-##Live Demo 
+##Live Demo - 
+
 [View Live Site](https://shivanshshukla-portfolio.netlify.app/)
 
-##Preview 
-![Portfolio preview](<img width="1883" height="949" alt="image" src="https://github.com/user-attachments/assets/11f671f7-fc36-45dc-a335-4ff87970e314" />)
+##Preview - 
+
+![Portfolio preview](<img width="1000" height="700" alt="image" src="https://github.com/user-attachments/assets/11f671f7-fc36-45dc-a335-4ff87970e314" />)
