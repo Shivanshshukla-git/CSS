@@ -1,11 +1,11 @@
 #Shivansh Shukla - Portfolio
 My personal portfolio website built with pure HTML5 and CSS3.
 
-##About
+##About 
 - I'm a First-year B.Tech Computer Science student.
 - This is my First major project where I applied everything I learned about HTML and CSS until now.
 
-##Features
+##Features 
 - Fully responsive design (mobile-friendly)
 - Clean and modern UI
 - Multi-section layout (Hero, About, Skills, Project, Contact)
@@ -15,7 +15,7 @@ My personal portfolio website built with pure HTML5 and CSS3.
 - My projects
 - Contact form
 
-##Technologies Used
+##Technologies Used 
 - HTML5 (Semantic markup)
 - CSS3 (Flexbox, Grid, Responsive design)
 - Font Awesome icons
